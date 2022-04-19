@@ -3,7 +3,8 @@ import os
 import pandas as pd
 
 #locate the path of a csv file in the directory
-file = 'data-files/airbnb_clean.csv'
+file = 'AirBnB/data-cleansing/data-files/airbnb_clean.csv'
+
 data = pd.read_csv(file)
 
 proper_row_count = 2970
