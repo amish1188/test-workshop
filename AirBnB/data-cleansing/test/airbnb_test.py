@@ -1,4 +1,5 @@
 import pytest 
+import os
 import pandas as pd
 
 #locate the path of a csv file in the directory
